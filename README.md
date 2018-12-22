@@ -7,7 +7,7 @@
 ```php
 final class Autoload
 {
-    public $enabled = false;
+    public $enabled = false; # languages doesn't need the enabling.
     public $helpers = [];
     public $libraries = [];
     public $languages = ["validation"];
